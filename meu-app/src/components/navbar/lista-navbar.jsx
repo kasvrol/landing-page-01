@@ -7,7 +7,7 @@ class ListaNav extends Component{
                         {Array.of("Home", "Product", "About", "Contact").map((aba)=>{
                             return(
                                 <li>
-                                    <a>{aba}</a>
+                                    {aba}
                                 </li>
                             )
                         }

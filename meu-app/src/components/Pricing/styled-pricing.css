@@ -11,13 +11,16 @@
 .primeiro-paragrafo{
     width: 437px;
     text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-h1{
+.primeiro-paragrafo h1{
     font-size: 56px;
 }
 
 .texto{
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .promocao{

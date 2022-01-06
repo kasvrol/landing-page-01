@@ -7,11 +7,11 @@ class Header extends Component{
         return(
             <nav className="body-header">
                 <section>
-                <img src={"image/logo.png"}/>
+                <img src={"image/logo.png"} alt="logo figma"/>
                 </section>
                 <ListaNav/>
                 <button>
-                    <a>Login</a>
+                    Login
                 </button>                
             </nav>
         )

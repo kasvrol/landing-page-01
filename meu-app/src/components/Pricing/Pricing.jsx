@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Proposta from "../Textos/Proposta";
 import ButtonStart from "../Button-Start/Button-Start";
 import "./styled-pricing.css"
 
@@ -10,9 +11,7 @@ class Pricing extends Component{
                         <h1>
                             Pricing
                         </h1>
-                        <p className="texto">
-                        Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
-                        </p>
+                        <Proposta/>
                     </section>
                     <section className="promocao">
                         <h2>
