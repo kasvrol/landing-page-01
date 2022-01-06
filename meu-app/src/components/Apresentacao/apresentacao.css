@@ -1,0 +1,31 @@
+.body-primeira-parte{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-family: Circular Std;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titulo-de-apresentacao{
+    font-size: 72px;
+    color: #112D57;
+    width: 490px;
+}
+
+.buttons-options{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-do-produto{
+    width: 88%;
+}
+
+.just-type{
+    text-align:center;
+    color: #F3CD03;
+    font-size: 36px;
+}
