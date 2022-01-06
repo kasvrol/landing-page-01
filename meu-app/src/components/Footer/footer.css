@@ -1,0 +1,19 @@
+.body-footer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.bordao-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 210px;
+}

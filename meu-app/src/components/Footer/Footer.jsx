@@ -1,10 +1,11 @@
 import React, {Component} from "react";
+import "./footer.css"
 
 class Footer extends Component{
     render(){
         return(
             <nav className="body-footer">
-                <section>
+                <section className="bordao-logo">
                 <img src={"image/logo.png"}/>
                 <p>
                 Just type what's on your minds
@@ -23,7 +24,7 @@ class Footer extends Component{
                     </ul>
                 </section>
                 <section>
-                <ul>
+                <ul className="redes">
                         {Array.of("image/ant-design_twitter-outlined.png", "image/ant-design_linkedin-filled.png", "image/ant-design_facebook-filled.png").map((redes)=>{
                             return(
                                 <li>
