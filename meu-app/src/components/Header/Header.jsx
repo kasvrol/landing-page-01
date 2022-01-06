@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import ListaNav from "../navbar/lista-navbar";
 import "./styled-header.css"
 
 class Header extends Component{
@@ -8,18 +9,7 @@ class Header extends Component{
                 <section>
                 <img src={"image/logo.png"}/>
                 </section>
-                <section>
-                    <ul>
-                        {Array.of("Home", "Product", "About", "Contact").map((aba)=>{
-                            return(
-                                <li>
-                                    <a>{aba}</a>
-                                </li>
-                            )
-                        }
-                        )}
-                    </ul>
-                </section>
+                <ListaNav/>
                 <button>
                     <a>Login</a>
                 </button>                
