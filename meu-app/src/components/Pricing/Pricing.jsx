@@ -4,7 +4,7 @@ import "./styled-pricing.css"
 class Pricing extends Component{
     render(){
         return(
-            <section className="body">
+            <section className="body-pricing">
                     <section className="primeiro-paragrafo">
                         <h1>
                             Pricing

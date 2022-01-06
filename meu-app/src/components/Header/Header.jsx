@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-
+import "./styled-header.css"
 
 class Header extends Component{
     render(){
         return(
-            <nav className="body">
+            <nav className="body-header">
                 <section>
-                    figma
+                <img src={"image/logo.png"}/>
                 </section>
                 <section>
                     <ul>
