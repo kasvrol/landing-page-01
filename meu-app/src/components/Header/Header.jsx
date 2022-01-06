@@ -20,9 +20,9 @@ class Header extends Component{
                         )}
                     </ul>
                 </section>
-                <section>
-                    login
-                </section>                
+                <button>
+                    <a>Login</a>
+                </button>                
             </nav>
         )
     }
