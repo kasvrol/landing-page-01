@@ -1,8 +1,9 @@
 import React from 'react';
+import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
-   <h1>meu app react</h1>
+   <Pricing/>
   );
 }
 
