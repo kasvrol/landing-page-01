@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from "./components/Header/Header";
 import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
-   <Pricing/>
+    <div>
+      <Header/>
+      <Pricing/>
+    </div>
   );
 }
 
