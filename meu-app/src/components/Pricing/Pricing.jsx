@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import ButtonStart from "../Button-Start/Button-Start";
 import "./styled-pricing.css"
 
 class Pricing extends Component{
@@ -26,6 +27,7 @@ class Pricing extends Component{
                         <p className="texto">
                         Most calendars are designed<br/>for teams.
                         </p>
+                        <ButtonStart/>
                     </section>
             </section>
         )

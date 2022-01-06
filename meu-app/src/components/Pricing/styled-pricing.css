@@ -23,7 +23,7 @@ h1{
 .promocao{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h2{
     font-size: 18px;
