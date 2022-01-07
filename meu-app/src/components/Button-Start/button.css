@@ -1,8 +1,7 @@
 .button-start{
-    width:196px;
-    height: 52px;
     background-color: #00B6F0;
     color: white;
-    padding-left: 38px;
-    padding-right: 38px;
+    border-radius: 85px;
+    padding: 26px 51px 26px 51px;
+    border-color: #00B6F0;
 }

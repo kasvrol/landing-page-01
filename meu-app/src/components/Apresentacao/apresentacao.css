@@ -7,10 +7,19 @@
     flex-wrap: wrap;
 }
 
+.parte-de-apresentacao , .subparte{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-family: Circular Std;
+    align-items: center;
+}
+
 .titulo-de-apresentacao{
     font-size: 72px;
     color: #112D57;
     width: 490px;
+    text-align: center;
 }
 
 .buttons-options{
@@ -18,6 +27,31 @@
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    padding: 45px 0px 45px 0px;
+}
+
+.body-primeira-parte button, .button-get, .button-all{
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 85px;
+    padding: 26px 51px 26px 51px;
+}
+
+.button-try{
+    background-color: white;
+    border-color: white;
+}
+
+.button-download, .button-get, .button-all{
+    background-color: #00B6F0;
+    color: white;
+    border-color: #00B6F0;
+}
+
+.button-see{
+    background-color: white;
+    border-color: #00B6F0;
+    color: #00B6F0;
 }
 
 .imagem-do-produto{
@@ -28,4 +62,59 @@
     text-align:center;
     color: #F3CD03;
     font-size: 36px;
+}
+
+.frase{
+    text-align: center;
+    font-size: 24px;
+    width: 420px;
+}
+
+.body-amostragem{
+    padding: 100px 0px 100px 0px;
+}
+
+
+.body-amostragem h3{
+    font-size: 42px
+}
+
+.screen{
+    width: 516px;
+}
+.amostragem-parte-dois, .amostragem-parte-um{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.amostragem-parte-dois div, .amostragem-parte-um div{
+    display:flex;
+    flex-direction: column;
+}
+
+.amostragem-parte-dois .frase, .amostragem-parte-um .proposta{
+    font-size: 18px;
+    text-align: left;
+    width: 260px;
+}
+
+.amostragem-parte-um .proposta{
+    width: 310px;
+}
+
+.amostragem-parte-tres{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.amostragem-parteIII-secaoII article{
+    display:flex;
+    flex-direction: column;
+}
+
+.amostragem-parteIII-secaoI .titulo-de-apresentacao{
+    width:initial;
 }

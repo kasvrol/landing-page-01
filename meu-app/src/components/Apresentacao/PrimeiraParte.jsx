@@ -6,8 +6,8 @@ import "./apresentacao.css"
 class PrimeiraParte extends Component{
     render(){
         return(
-            <secton className="body-primeira-parte">
-                <section>
+            <div className="body-primeira-parte">
+                <section className="parte-de-apresentacao">
                     <h1 className="titulo-de-apresentacao">Lightning fast prototyping</h1>
                     <Frase/>
                     <section className="buttons-options">
@@ -15,25 +15,25 @@ class PrimeiraParte extends Component{
                         <button className="button-try">
                             Try For Free
                         </button> 
-                    </section> 
-                </section>
-                <section>
+                     </section>
                     <img src={"image/flat-browser.png"} alt="imagem do produto" className="imagem-do-produto"/>
                 </section>
-                <section>
-                    <h2 className="just-type">Just type</h2>
-                    <h1 className="titulo-de-apresentacao">Fastest way to navigate</h1>
-                    <Frase/>
-                </section>
-                <section className="buttons-options">
-                        <button>
-                            Download
-                        </button> 
-                        <button>
-                            See Walkthrough
-                        </button> 
-                    </section> 
-            </secton>
+                <section  className="subparte">
+                    <section>
+                        <h2 className="just-type">Just type</h2>
+                        <h1 className="titulo-de-apresentacao">Fastest way to navigate</h1>
+                        <Frase/>
+                    </section>
+                    <section className="buttons-options">
+                            <button className="button-download">
+                                Download
+                            </button> 
+                            <button className="button-see">
+                                See Walkthrough
+                            </button> 
+                    </section>
+                </section> 
+            </div>
         )
     }
 

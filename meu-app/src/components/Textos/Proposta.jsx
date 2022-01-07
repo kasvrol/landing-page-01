@@ -3,7 +3,7 @@ import React, {Component} from "react";
 class Proposta extends Component{
     render(){
         return(
-            <article>
+            <article className="proposta">
             Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.  
             </article>
         )
