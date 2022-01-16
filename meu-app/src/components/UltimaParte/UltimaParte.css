@@ -1,0 +1,16 @@
+.bory-ultima-parte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.bory-ultima-parte h1{
+    width: 450px;
+}
+
+.convitepart2{
+    font-size: 19px;
+    width: 550px;
+    height: 100px;
+}

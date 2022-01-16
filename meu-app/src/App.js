@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import PrimeiraParte from "./components/Apresentacao/PrimeiraParte";
 import Amostragem from "./components/Apresentacao/Amostragem";
 import Pricing from "./components/Pricing/Pricing";
+import UltimaParte from "./components/UltimaParte/UltimaParte";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <PrimeiraParte/>
       <Amostragem/>
       <Pricing/>
+      <UltimaParte/>
       <Footer/>
     </div>
   );
