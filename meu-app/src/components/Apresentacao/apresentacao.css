@@ -116,6 +116,14 @@
     width:initial;
 }
 
+.amostragem-parteIII-secaoI img{
+    margin-top: 4rem;
+}
+
+.amostragem-parteIII-secaoII .convite{
+    text-align: center;
+}
+
 .cliente{
     margin:30px 0px 30px 0px;
 }

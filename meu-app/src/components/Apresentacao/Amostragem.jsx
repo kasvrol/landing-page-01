@@ -31,6 +31,7 @@ class Amostragem extends Component{
                             <article>
                                 Being a freelancer is a rollercoaster of emotions. We built Slate to keep your
                             </article>
+                            <img src={"image/barra-progresso.png"} alt="imagem da barra de progresso de visualizações no facebook"/>
                         </div>
                         <button className="button-get">
                             Get Started For Free
@@ -41,9 +42,7 @@ class Amostragem extends Component{
                                 Testimonials
                             </h3>
                             <img src={"image/logos_ibm.png"} alt="imagem da logo da ibm"/>
-                            <article>
-                                <Convite/>
-                            </article>
+                            <Convite/>
                         <img src={"image/client.png"} alt="imagem do cliente" className="cliente"/>
                         <br/>
                         <button className="button-all">
