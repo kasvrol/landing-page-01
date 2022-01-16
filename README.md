@@ -1,6 +1,6 @@
 # LANDING PAGE 01
 
-##Desenvolvimento de uma landing page feita com React.js
+## Desenvolvimento de uma landing page feita com React.js
 
 ### Sobre a landing page:
 
