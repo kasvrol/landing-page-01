@@ -72,6 +72,8 @@
 
 .body-amostragem{
     padding: 100px 0px 100px 0px;
+    font-family: Circular Std;
+    font-size: 24px;
 }
 
 
@@ -110,11 +112,10 @@
     text-align: center;
 }
 
-.amostragem-parteIII-secaoII article{
-    display:flex;
-    flex-direction: column;
-}
-
 .amostragem-parteIII-secaoI .titulo-de-apresentacao{
     width:initial;
+}
+
+.cliente{
+    margin:30px 0px 30px 0px;
 }

@@ -42,11 +42,9 @@ class Amostragem extends Component{
                             </h3>
                             <img src={"image/logos_ibm.png"} alt="imagem da logo da ibm"/>
                             <article>
-                                <p>Being a freelancer is a rollercoaster of emotions. <br/>
-                                We built Slate to keep your freelance business less stressful. <br/>
-                                We'd love to show you what we're building...</p>
+                                <Convite/>
                             </article>
-                        <img src={"image/client.png"} alt="imagem do cliente"/>
+                        <img src={"image/client.png"} alt="imagem do cliente" className="cliente"/>
                         <br/>
                         <button className="button-all">
                             All Testimonials
