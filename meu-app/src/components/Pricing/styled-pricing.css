@@ -1,12 +1,11 @@
 .body-pricing{
     background:#182333;
     color: #FFFFFF;
-    font-family: Circular Std;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 100px;
-    align-items: center;
+    align-items: flex-start;
 }
 .primeiro-paragrafo{
     width: 437px;
@@ -17,6 +16,10 @@
 }
 .primeiro-paragrafo h1{
     font-size: 56px;
+}
+
+.proposta-para-pricing{
+    font-size: 20px;
 }
 
 .texto{

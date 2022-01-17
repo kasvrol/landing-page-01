@@ -5,6 +5,7 @@ import Amostragem from "./components/Apresentacao/Amostragem";
 import Pricing from "./components/Pricing/Pricing";
 import UltimaParte from "./components/UltimaParte/UltimaParte";
 import Footer from "./components/Footer/Footer";
+import "./index.css"
 
 function App() {
   return (

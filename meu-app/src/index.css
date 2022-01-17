@@ -14,3 +14,12 @@ code {
 li{
   list-style-type: none;
 }
+
+@font-face {
+  font-family: 'Circular Std';
+  src: local('Circular Std'), url(//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium) format('truetype');
+}
+
+h1, p, h2, h3, h4, h5, h6, article{
+  font-family: Circular Std, sans-serif;
+}
