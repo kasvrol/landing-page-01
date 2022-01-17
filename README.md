@@ -23,20 +23,27 @@ Criada com base em um desing do [figma comminuty](https://www.figma.com/communit
   * React: https://create-react-app.dev/docs/getting-started
 
 ### Para visualizar o trabalho:
-  * Clone o projeto através do git fazendo um git clone;
+  * Clone o projeto através do comando git:
   
 ```bash
 git clone https://github.com/kasvrol/kasvrol-landingpage01.github.io
 ```
 
   * Instale o node;
-  * Abra um novo terminal e instale as frameworks dando um npm install;
-  
-```bash
-npm start
+  * Abra um novo terminal no seu eitor de código;
+  * Entre na pasta meu-app digitando no terminal:
+ 
+ ```bash
+cd meu-app
 ```
 
-  * Digite um npm start e abrirá o browser de seu computador com o projeto.
+  * Instale as frameworks com o comando:
+  
+```bash
+npm install
+```
+
+  * Dê inicio no projeto com o seguinte comando e abrirá o browser de seu computador com o projeto.
   
 ```bash
 npm start
