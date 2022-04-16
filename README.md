@@ -26,7 +26,7 @@ Criada com base em um desing do [figma comminuty](https://www.figma.com/communit
   * Clone o projeto através do comando git:
   
 ```bash
-git clone https://github.com/kasvrol/kasvrol-landingpage01.github.io
+git clone https://github.com/kasvrol/landing-page-01
 ```
 
   * Instale o node;
